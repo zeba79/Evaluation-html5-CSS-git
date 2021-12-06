@@ -3,7 +3,6 @@
 --CT: #6d5f5f; /* Couleur des Textes*/
 --CL: #ca552b; /*Couleur des Liens*/
 --CFL: #574fc2; /*Couleur de Fond des Liens*/
---CTL: #edf6f9; /*Couleur des Textes des Liens*/
 --CHF: lightblue; /* Couleur du Header et Footer*/
 }
 
@@ -12,10 +11,8 @@ body, html{
   height: 100%;
   color: var(--CT);
   font-family: 'Roboto', sans-serif;
-  background-image: url(./assets/images/cercle.jpg);
-  background-size: contain;
-  background-position:center;
-  background-repeat: no-repeat;
+  font-size: 15px;
+ 
 }
 
 header{
@@ -25,31 +22,39 @@ header{
   justify-content: space-between;
   background-color: var(--CHF);
   height: 15%;
+  border-radius: 15px;
 }
-.logo{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-/*
-.logo img{
-  height: 50%;
-  width: 50%;
-}*/
-
 
 header nav ul{
   list-style: none;
   display: flex;
   align-items: baseline;
   justify-content: space-around;
+  
 }
 header nav ul li{
   padding: 10px;
   margin: 5px;
+ 
 }
 header nav ul li a{
   text-decoration: none;
+  color: var(--CHF);
+  font-weight: bold;
+}
+.logo{
+  display: inline-block;
+  padding: 10px;
+  height: 120px;
+  box-shadow: 5px 5px 5px blue;
+}
+.logo .image1 img{
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+}
+.logo .slogan{
+  margin-top: -20px;
 }
 
 .btn-l{
@@ -57,4 +62,26 @@ background-color: var(--CFL);
 margin: 5px;
 padding: 10px;
 border-radius: 10px;
+border-bottom: 5px solid blue;
+
+}
+
+main{
+  height: 70%;
+  margin: 5px;
+  padding: 15px;
+  box-shadow: 10px 5px 10px red;
+  background-image: url(./assets/images/cercle.jpg);
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--CHF);
+  height: 15%;
+  border-radius: 15px;
 }
