@@ -1,11 +1,60 @@
 
 :root{
-
+--CT: #6d5f5f; /* Couleur des Textes*/
+--CL: #ca552b; /*Couleur des Liens*/
+--CFL: #574fc2; /*Couleur de Fond des Liens*/
+--CTL: #edf6f9; /*Couleur des Textes des Liens*/
+--CHF: lightblue; /* Couleur du Header et Footer*/
 }
 
 body, html{
   margin: 0;
   height: 100%;
-  color: ;
+  color: var(--CT);
   font-family: 'Roboto', sans-serif;
+  background-image: url(./assets/images/cercle.jpg);
+  background-size: contain;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--CHF);
+  height: 15%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/*
+.logo img{
+  height: 50%;
+  width: 50%;
+}*/
+
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+header nav ul li{
+  padding: 10px;
+  margin: 5px;
+}
+header nav ul li a{
+  text-decoration: none;
+}
+
+.btn-l{
+background-color: var(--CFL);
+margin: 5px;
+padding: 10px;
+border-radius: 10px;
 }
