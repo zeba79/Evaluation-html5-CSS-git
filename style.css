@@ -61,6 +61,12 @@ header nav ul li a, .social ul li a {
   width: 50%;
   border-radius: 10px;
 }
+.sections img{
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+}
+
 .logo .slogan{
   margin-top: -20px;
 }
@@ -80,12 +86,6 @@ color: aliceblue;
 }
 
 
-.btn-l{
-  background-color: var(--CFL) ;
-  border-radius: 15px;
- 
-  
-}
 
 .conteneur{
   background-size: contain;
@@ -106,19 +106,15 @@ section{
 }
 .sections{
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
+  /*flex-wrap: wrap;*/
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  
+  
   
 }
 
-.sections img{
-  border-radius: 15px;
-  width: 30%;
-  height: 30%;
- 
- 
-}
 .sections p{
   margin-left: var(--MG10);
  
