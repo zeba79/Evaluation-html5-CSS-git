@@ -101,17 +101,13 @@ section{
   background-color: #fff;
   padding: var(--PD10);
   box-shadow: 5px 0px 10px 10px lightblue;
-  height: 500px;
   border-radius: 15px;
   margin: var(--MG10);
   vertical-align: middle;
   
  
 }
-.sections p{
-  margin-left: var(--MG10);
- 
-}
+
 h2{
  text-decoration: underline 5px solid var(--CT);
  /*border-bottom: 5px solid var(--CT);*/
