@@ -218,11 +218,15 @@ fieldset{
   height: 800px;
   border-radius: 15px;
   border: 5px ridge lightblue;
+  background-color: #5151;
 }
 
+legend{
+  font-size: 1.5em;
+}
 form{
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   grid-gap: 10px;
  
 }
@@ -234,9 +238,6 @@ input, select{
   font-size: 1.5em;
   outline: none;
   border: 1px solid #444;
- 
-  
-
 }
 
 label{

@@ -60,10 +60,10 @@
                 <option value="mademoiselle">Mademoiselle</option>
                 <option value="monsieur">Monsieur</option>
               </select>            
-              <label for="nom" >Nom</label>
-              <input type="text" name="nom" id="nom" placeholder="Veuillez saisir votre nom s'il vous plaît">
-              <label for="prenom" >Prénom</label>
-              <input type="text" name="prenom" id="prenom" placeholder="Veuillez saisir votre prénom s'il vous plaît">
+              <label for="nom" >Nom *</label>
+              <input type="text" name="nom" id="nom" placeholder="Veuillez saisir votre nom s'il vous plaît" required>
+              <label for="prenom" >Prénom *</label>
+              <input type="text" name="prenom" id="prenom" placeholder="Veuillez saisir votre prénom s'il vous plaît" required>
               <label for="numeroderue">Numéro de rue</label>
               <input type="number" name="numeroderue" id="numeroderue">
               <label for="rue">Rue</label>
@@ -72,6 +72,15 @@
               <input type="number" name="codepostal" id="codepostal">
               <label for="ville">Ville</label>
               <input type="text" name="ville" id="ville">
+              <label for="email">Votre Email *</label>
+              <input type="email" name="email" id="email" required>
+              <label for="telephone">Votre téléphonne *</label>
+              <input type="tel" name="telephone" id="telephone">
+              <label for="montantdudon">Montant du Don *</label>
+              <input type="number" name="montantdudon" id="montantdudon">
+              <p>
+                Les champs marqués d'une étoile * sont obligatoires
+              </p>
             </form>
           </fieldset>
         
