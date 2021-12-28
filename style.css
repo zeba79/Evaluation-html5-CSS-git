@@ -9,6 +9,7 @@
 --PD10: 10px;
 }
 
+/* CSS Page index.html*/
 body, html{
   margin: 0;
   height: 100%;
@@ -110,7 +111,6 @@ section{
 
 h2{
  text-decoration: underline 5px solid var(--CT);
- /*border-bottom: 5px solid var(--CT);*/
 }
 
 footer{
