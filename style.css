@@ -218,11 +218,29 @@ fieldset{
   height: 800px;
   border-radius: 15px;
   border: 5px ridge lightblue;
-  
 }
 
 form{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
   grid-gap: 10px;
+ 
+}
+
+input, select{
+  border-radius: 15px;
+  padding: var(--PD10);
+  color: var(--CT);
+  font-size: 1.5em;
+  outline: none;
+  border: 1px solid #444;
+ 
+  
+
+}
+
+label{
+  font-size: 1.5em;
+  padding: var(--PD10);
+  
 }
