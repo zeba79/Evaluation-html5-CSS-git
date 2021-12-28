@@ -201,7 +201,7 @@ h3{
   grid-template-columns: repeat(2,1fr);
 }
 .texte{
-  height: 800px;
+  height: 900px;
   margin: var(--MG10);
   padding: var(--PD10);
   font-size: 1.25em;
@@ -215,7 +215,7 @@ h3{
 }
 fieldset{
   padding: var(--PD10);
-  height: 800px;
+  height: 900px;
   border-radius: 15px;
   border: 5px ridge lightblue;
   background-color: #5151;
@@ -238,6 +238,7 @@ input, select{
   font-size: 1.5em;
   outline: none;
   border: 1px solid #444;
+
 }
 
 label{
