@@ -211,3 +211,14 @@ h3{
   color: #fff;
   
 }
+
+.dons{
+  text-align: center;
+}
+fieldset{
+  padding: var(--PD10);
+  border-radius: 15px;
+  box-shadow: 5px 0px 10px 10px lightblue;
+  border: 5px ridge lightblue;
+  
+}
