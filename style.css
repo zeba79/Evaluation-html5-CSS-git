@@ -16,8 +16,8 @@ body, html{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   scroll-behavior: smooth;
- 
 }
+
 
 header{
   display: flex;
@@ -42,7 +42,7 @@ header nav ul li, .social ul li{
   padding: var(--PD10);
   margin: var(--MG5);
 }
-header nav ul li a, .social ul li a {
+header nav ul li a, .social ul li a, .copyright a{
   text-decoration: none;
   font-weight: bold;
  
@@ -63,15 +63,9 @@ header nav ul li a, .social ul li a {
 }
 
 .sections .gauche img{
-  height: 200px;
-  width: 400px;
+  height: 80%;
+  width: 80%;
   border-radius: 15px;
-}
-.sections .gauche{
-  width: 30%;
-}
-.sections .droite{
-  width: 70%;
 }
 
 .logo .slogan{
@@ -92,14 +86,17 @@ color: aliceblue;
 
 }
 
-
-
 .conteneur{
-  background-size: contain;
-  background-position:center;
-  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  gap: 10px;
 }
-
+.sections{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--PD10);
+  font-size: 25px;
+}
 section{
   background-color: #fff;
   padding: var(--PD10);
@@ -111,23 +108,13 @@ section{
   
  
 }
-.sections{
-  display: flex;
-  /*flex-wrap: wrap;*/
-  align-items: center;
-  justify-content: space-around;
-  font-size: 25px;
-  
-  
-  
-}
-
 .sections p{
   margin-left: var(--MG10);
  
 }
 h2{
-  text-decoration: underline 5px solid var(--CT);
+ text-decoration: underline 5px solid var(--CT);
+ /*border-bottom: 5px solid var(--CT);*/
 }
 
 footer{
@@ -136,6 +123,10 @@ footer{
   justify-content: space-around;
   height: 15%;
   background-image: url(./assets/images/cercle.jpg);
+}
+.copyright{
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 
@@ -147,7 +138,9 @@ footer{
     display: inline-block;
     
   }
-
+.sections{
+  display: block;
+}
   img{
     padding-right: 20px;
     width: 50%;
