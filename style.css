@@ -161,20 +161,35 @@ footer{
      margin-top: 0;
    }
 
+/* media queries page evenements.html*/
+.evenements{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
-/* evenements.html*/
+}
+
+
+
+
+/* CSS page evenements.html*/
 .evenements{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   height: 80%;
-  gap: 10px;
-
 }
 
 .events, h3{
   font-size: 1.5em;
 }
-.events{
-  box-shadow: 5px 0px 10px 10px lightblue;
+h3{
+  border-bottom: 5px solid grey;
+  text-align: center;
+}
+.actions{
+  padding: var(--PD10);
+  box-shadow: 5px 0px 10px 10px rgb(181, 191, 194);
+  border-radius: 15px;
+  border: 5px ridge lightblue;
+  margin: var(--MG5);
 }
