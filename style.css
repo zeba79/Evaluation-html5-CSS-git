@@ -200,16 +200,14 @@ h3{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
-.texte, .champs{
+.texte{
   height: 800px;
   margin: var(--MG10);
   padding: var(--PD10);
   font-size: 1.25em;
-}
-.texte{
   background-color: black;
   color: #fff;
-  
+  border-radius: 15px;
 }
 
 .dons{
@@ -217,7 +215,14 @@ h3{
 }
 fieldset{
   padding: var(--PD10);
+  height: 800px;
   border-radius: 15px;
-  box-shadow: 5px 0px 10px 10px lightblue;
   border: 5px ridge lightblue;
+  
+}
+
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }

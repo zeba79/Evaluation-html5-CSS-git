@@ -47,20 +47,30 @@
         </p>
       </div>
       <div class="champs">
-        <form action="GET">
+       
           <fieldset>
             <legend>
               Formulaire de don
             </legend>
-            <label for="civilite">Civilité
+            <form action="GET">
+            <label for="civilite">Civilité </label>
               <select name="civilite" id="civilite">
+                <option value="">Veuillez selectionner votre civilité</option>
                 <option value="madame">Madame</option>
                 <option value="mademoiselle">Mademoiselle</option>
                 <option value="monsieur">Monsieur</option>
-              </select>
-              </label> 
+              </select>            
+              <label for="nom" >Nom</label>
+              <input type="text" name="nom" id="nom" placeholder="Veuillez saisir votre nom s'il vous plaît">
+              <label for="prenom" >Prénom</label>
+              <input type="text" name="prenom" id="prenom" placeholder="Veuillez saisir votre prénom s'il vous plaît">
+              <label for="numeroderue">Numéro de rue</label>
+              <input type="number" name="numeroderue" id="numeroderue">
+              <label for="rue">Rue</label>
+              <input type="text" name="rue" id="rue">
+            </form>
           </fieldset>
-        </form>
+        
       </div>
 
     </div>
