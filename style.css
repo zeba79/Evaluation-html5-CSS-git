@@ -61,10 +61,17 @@ header nav ul li a, .social ul li a {
   width: 50%;
   border-radius: 10px;
 }
-.sections img{
-  height: 300px;
-  width: 500px;
+
+.sections .gauche img{
+  height: 200px;
+  width: 400px;
   border-radius: 15px;
+}
+.sections .gauche{
+  width: 30%;
+}
+.sections .droite{
+  width: 70%;
 }
 
 .logo .slogan{
