@@ -193,3 +193,21 @@ h3{
   border: 5px ridge lightblue;
   margin: var(--MG5);
 }
+
+
+/* CSS page faireundon.html*/
+.formulaire{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.texte, .champs{
+  height: 800px;
+  margin: var(--MG10);
+  padding: var(--PD10);
+  font-size: 1.25em;
+}
+.texte{
+  background-color: black;
+  color: #fff;
+  
+}
