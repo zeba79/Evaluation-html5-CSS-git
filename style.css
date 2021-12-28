@@ -166,7 +166,15 @@ footer{
 /* evenements.html*/
 .evenements{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
+  height: 80%;
   gap: 10px;
 
+}
+
+.events, h3{
+  font-size: 1.5em;
+}
+.events{
+  box-shadow: 5px 0px 10px 10px lightblue;
 }
