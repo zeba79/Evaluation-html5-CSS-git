@@ -114,6 +114,9 @@ section{
   justify-content: space-around;
   
 }
+.contactasso a{
+  text-decoration: none;
+}
 
 iframe{
   border-radius: 15px;
@@ -219,6 +222,7 @@ h3{
   background-color: black;
   color: #fff;
   border-radius: 15px;
+  
 }
 
 .dons{

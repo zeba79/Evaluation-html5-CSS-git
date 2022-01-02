@@ -14,7 +14,7 @@
         <img src="./assets/images/mains.jpg" alt=""> <!--http://via.placeholder.com/200x100?text=logo-->
       </div>
       <div class="slogan">
-        <a href="#accueil">
+        <a href="index.html">
           <h1>Agissons Maintenant</h1>
         </a>
       </div>
@@ -43,7 +43,7 @@
       <div class="texte">
         <p>
           Vous souhaitez faire un don pour faire évoluer notre association afin de venir en aide à toutes
-          ces personnes abandonnées dehors ? Vous êtes sur la bonne page
+          ces personnes abandonnées dehors ? <br> <br> Vous êtes sur la bonne page.
         </p>
       </div>
       <div class="champs">
@@ -52,6 +52,9 @@
             <legend>
               Formulaire de don
             </legend>
+            <p>
+              Les champs marqués d'une étoile * sont obligatoires
+            </p>
             <form action="GET">
             <label for="civilite">Civilité </label>
               <select name="civilite" id="civilite">
@@ -79,12 +82,10 @@
               <label for="montantdudon">Montant du Don *</label>
               <input type="number" name="montantdudon" id="montantdudon">
               <label for="commentaire">Votre commantaire</label>
-              <textarea name="commentaire" id="commentaire" cols="30" rows="5">Votre commentaire</textarea>
+              <textarea name="commentaire" id="commentaire" cols="30" rows="5" placeholder="Votre commentaire ici"></textarea>
               <input class="btn-l bouton" type="button" value="Envoyer">
               <input class="btn-l bouton" type="reset" value="Effacer le formulaire">
-              <p>
-                Les champs marqués d'une étoile * sont obligatoires
-              </p>
+             
             </form>
           </fieldset>
         
